@@ -1,0 +1,55 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .title {
+    @apply w-20 h-4 m-2 bg-animedb-800 rounded-md text-black;
+  }
+
+
+  td {
+    @apply text-center 
+  }
+
+  tr {
+    @apply odd:bg-animedb-900 
+  }
+
+  .action-button{
+    @apply bg-animedb-400
+  }
+
+  td, th{
+    @apply text-sm;
+  }
+
+  input {
+    @apply p-1 rounded-md focus:outline-none focus:border-animedb-800 focus:border-2
+  }
+
+  button {
+    @apply px-2 py-1 rounded-md text-white
+  }
+
+  .button {
+    @apply px-2 py-2 rounded-md text-white cursor-pointer
+  }
+
+  i {
+    @apply mr-1
+  }
+
+  .button-year {
+    @apply w-52 mt-4 mr-3 bg-animedb-800 text-black
+  }
+
+  .button-year-highlighted {
+    @apply w-52 mt-4 mr-3 bg-animedb-400 text-black
+  }
+}
