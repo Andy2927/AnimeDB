@@ -12,9 +12,8 @@
         - El director.
         - El creador.
 
-- [Demo en YouTube](https://qwik.builder.io/)
-- [GitHub del profesor](https://qwik.builder.io/chat)
-- [Web desplegada](https://github.com/BuilderIO/qwik)
+- [Demo en YouTube](https://youtu.be/p50Ze4BgwVo)
+- [GitHub del profesor](https://github.com/CPIFPAlanTuring/certificaciones-2324)
 
 ## Tecnologías utilizadas
 - [MongoDB] base de datos noSQL
